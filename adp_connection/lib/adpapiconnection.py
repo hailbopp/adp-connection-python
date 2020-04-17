@@ -22,8 +22,8 @@ import requests
 import datetime
 import uuid
 import logging
-from connectexceptions import *
-from connectionconfiguration import *
+from .connectexceptions import *
+from .connectionconfiguration import *
 from adp_connection import __version__
 
 
